@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-boxs;
+          box-sizing: border-boxs;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: #191919;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+body a {
+  text-decoration: none;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#container canvas {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+#container nav {
+  position: relative;
+  z-index: 9999;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  margin-top: 10px;
+}
+
+#container nav .logo .mlogo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #22eaaa;
+  margin: 0px 10px;
+}
+
+#container nav ul li {
+  padding-top: 10px;
+  list-style: none;
+  display: inline-block;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#container nav ul li a {
+  padding: 8px 20px;
+  display: inline-block;
+  font-size: 20px;
+  color: #22eaaa;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#container nav ul li:hover a {
+  color: white;
+}
+
+#container nav ul li:nth-child(5) a {
+  margin-left: 59px;
+  border: 2px solid #22eaaa;
+}
+
+#container nav ul li:nth-child(5):hover a {
+  border: 2px solid #fff;
+}
+
+#container .wrapper {
+  position: relative;
+  z-index: 9999;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+
+#container .wrapper h1 {
+  font-size: 80px;
+  color: #000;
+  -webkit-text-stroke: 2px #fff;
+}
+
+#container .wrapper a {
+  padding: 10px 20px;
+  color: #000;
+  background-color: #fff;
+  margin-top: 9px;
+  display: inline-block;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#container .wrapper a:hover {
+  color: white;
+  background: #000;
+}
+/*# sourceMappingURL=style.css.map */
